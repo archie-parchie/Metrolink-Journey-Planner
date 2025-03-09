@@ -1658,7 +1658,7 @@ def reset_lines(current_time, day): #accounts for stops that are only on lines s
                 tram_stops[j] = i
 
 def get_pids():
-    api_key = "16GPOPKhR25HdE9v60Zs39gQsz7NMwpn37GpKINU"
+    api_key = "Enter your key here"
     api_url = "https://api.tfgm.com/odata/Metrolinks"
     headers = {"Ocp-Apim-Subscription-Key" : api_key}
     response = requests.get(api_url, headers = headers)
